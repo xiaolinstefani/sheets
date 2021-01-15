@@ -530,6 +530,7 @@ abstract class Sheet : SheetFragment() {
             setupCoverSource(source, bindingBase.top.coverImage)
             bindingBase.top.coverImage.loadAny(coverImage?.any) {
                 source.coilRequestBuilder.invoke(this)
+                allowHardware(false)
             }
         }
     }
