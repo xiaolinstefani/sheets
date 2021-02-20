@@ -6,7 +6,7 @@
 
   <p>
 
-我不知道，对不起。工作正在进行中。 
+在你的应用程序中快捷地使用对话框（dialogs)和bottom-sheets。你可以选择已有的sheets或者基于现有的功能上自定义sheets。
 
    <a href="https://search.maven.org/search?q=g:%22com.maxkeppeler.sheets%22">
      <img style="margin-right: 4px; margin-bottom: 8px;" alt="Version of Sheets library" src="https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/core.svg?label=Maven%20Central">
@@ -52,20 +52,20 @@
 
 <img src="art/showcase.png" alt="sheets Library">
 
-## Table of Contents
+## 目录表
 
-- [Get started](#get-started)
-  - [Info Sheet](#info)
-  - [Options Sheet](#options)
-  - [Clock Time Sheet](#clock-time)
-  - [Time Sheet](#time)
-  - [Input Sheet](#input)
-  - [Calendar Sheet](#calendar)
-  - [Color Sheet](#color)
-  - [Custom Sheet](#custom)
+- [开始](#开始)
+  - [信息Sheet](#信息)
+  - [选项Sheet](#选项)
+  - [钟点Sheet](#钟点)
+  - [时长Sheet](#时长)
+  - [输入Sheet](#输入)
+  - [日历Sheet](#日历)
+  - [颜色Sheet](#颜色)
+  - [自定义Sheet](#自定义)
   - [Lottie](#lottie)
-  - [Appearance](#appearance)
-- [Misc](#misc)
+  - [外观](#外观)
+- [杂项](#杂项)
   - [Showcase](#showcase)
   - [Support this project](#support-this-project)
   - [Credits](#credits)
