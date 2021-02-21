@@ -66,19 +66,19 @@
   - [Lottie](#lottie)
   - [外观](#外观)
 - [杂项](#杂项)
-  - [Showcase](#showcase)
-  - [Support this project](#support-this-project)
-  - [Credits](#credits)
-  - [License](#license)
+  - [作品展示](#作品展示)
+  - [支持这个项目](#支持这个项目)
+  - [致谢](#致谢)
+  - [许可](#许可)
 
-# Get started
+# 开始
 
-A sheet can dynamically be displayed as either a dialog or as a bottom-sheet.
-Check out the [sample](https://github.com/MaxKeppeler/sheets/blob/main/sample/sample.apk).
+Sheet可以以dialog或者bottom-sheet的形式来展示。
+查看 [例子](https://github.com/MaxKeppeler/sheets/blob/main/sample/sample.apk).
 
-You have to use the `core` module as it is the foundation of any sheet.
+你必须使用 `core` 模块，因为它是所有sheet的基础。
 
-In your top-level `build.gradle` file:
+在你的顶级 `build.gradle` 文件中:
 
 ```gradle
 repositories {
@@ -87,9 +87,9 @@ repositories {
 }
 ```
 
-In your app `build.gradle` file:
+在你的应用程序 `build.gradle` 文件中:
 
-[ ![Download](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/core.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/core)
+[ ![下载](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/core.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/core)
 
 ```gradle
 dependencies {
@@ -98,19 +98,19 @@ dependencies {
 }
 ```
 
-**Base functions** <br/>
+**基本功能** <br/>
 Following functions can be called from any type of sheet.
 
-| Function              | Action                                                                           |
+| 功能                   | 作用                                                                             |
 | --------------------- | -------------------------------------------------------------------------------- |
-| style()               | Display as dialog or bottom-sheet.                                               |
-| title()               | Set the title text.                                                              |
-| titleColor()          | Set the title text color.                                                        |
-| titleColorRes()       | Set the title text color by a resource.                                          |
-| withCoverImage()      | Add a cover image.                                                               |
-| topStyle()            | Specify the style of the cover image and top bar.                                |
-| positiveButtonStyle() | Define the style of the positive button (Text, Filled, Outlined).                |
-| negativeButtonStyle() | Define the style of the negative button (Text, Filled, Outlined).                |
+| style()               | 以dialog或者bottom-sheet的形式展示。                                                |
+| title()               | 设置标题文本。                                                                     |
+| titleColor()          | 设置标题文本颜色。                                                                  |
+| titleColorRes()       | 用资源来设置标题文本颜色。                                                           |
+| withCoverImage()      | 添加封面图像。                                                                     |
+| topStyle()            | 指定封面图像和顶部栏的风格类型。                                                      |
+| positiveButtonStyle() | 定义肯定按钮（正方向）的风格类型 (文本，填充，轮廓)。                                    |
+| negativeButtonStyle() | 定义否定按钮（负方向）的风格类型 (文本，填充，轮廓)。                                    |
 | withIconButton()      | Add up to 3 icon buttons to the top bar.                                         |
 | closeIconButton()     | Set a custom close icon button.                                                  |
 | displayHandle()       | Display the handle.                                                              |
