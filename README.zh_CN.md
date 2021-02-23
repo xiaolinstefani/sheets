@@ -73,7 +73,7 @@
 
 # 开始
 
-Sheet可以以dialog或者bottom-sheet的形式来展示。
+Sheet可以以dialog或者bottom-sheet的形式来显示。
 查看 [例子](https://github.com/MaxKeppeler/sheets/blob/main/sample/sample.apk).
 
 你必须使用 `core` 模块，因为它是所有sheet的基础。
@@ -103,7 +103,7 @@ Following functions can be called from any type of sheet.
 
 | 功能                   | 作用                                                                             |
 | --------------------- | -------------------------------------------------------------------------------- |
-| style()               | 以dialog或者bottom-sheet的形式展示。                                                |
+| style()               | 以dialog或者bottom-sheet的形式显示。                                                |
 | title()               | 设置标题文本。                                                                     |
 | titleColor()          | 设置标题文本颜色。                                                                  |
 | titleColorRes()       | 用资源来设置标题文本颜色。                                                           |
@@ -111,12 +111,12 @@ Following functions can be called from any type of sheet.
 | topStyle()            | 指定封面图像和顶部栏的风格类型。                                                      |
 | positiveButtonStyle() | 定义肯定按钮（正方向）的风格类型 (文本，填充，轮廓)。                                    |
 | negativeButtonStyle() | 定义否定按钮（负方向）的风格类型 (文本，填充，轮廓)。                                    |
-| withIconButton()      | Add up to 3 icon buttons to the top bar.                                         |
-| closeIconButton()     | Set a custom close icon button.                                                  |
-| displayHandle()       | Display the handle.                                                              |
-| displayCloseButton()  | Display close icon button.                                                       |
-| displayToolbar()      | Display toolbar. (Close icon button, title, divider and icon buttons)            |
-| peekHeight()          | Set the peek height. (Only bottom-sheet)                                         |
+| withIconButton()      | 在顶部栏添加最多三个图标按钮。                                                        |
+| closeIconButton()     | 设置自定义的关闭图标按钮。                                                           |
+| displayHandle()       | 显示手柄（用来上下移动bottom-sheet)。                                                |
+| displayCloseButton()  | 显示关闭图标按钮。                                                                  |
+| displayToolbar()      | 显示工具栏。 (关闭图标按钮，标题，分隔线和图标按钮)                                      |
+| peekHeight()          | 设置预览框的高度。(只适用于bottom-sheet)                                             |
 | cornerRadius()        | Set corner radius.                                                               |
 | cornerFamily()        | Set corner family. (Cut or rounded)                                              |
 | borderWidth()         | Set the border width.                                                            |
