@@ -117,17 +117,17 @@ Following functions can be called from any type of sheet.
 | displayCloseButton()  | 显示关闭图标按钮。                                                                  |
 | displayToolbar()      | 显示工具栏。 (关闭图标按钮，标题，分隔线和图标按钮)                                      |
 | peekHeight()          | 设置预览框的高度。(只适用于bottom-sheet)                                             |
-| cornerRadius()        | Set corner radius.                                                               |
-| cornerFamily()        | Set corner family. (Cut or rounded)                                              |
-| borderWidth()         | Set the border width.                                                            |
-| borderColor()         | Set the border color.                                                            |
-| cancelableOutside()   | Make sheet cancelable outside of the dialog view.                                |
-| onNegative()          | Set the negative button text and listener.                                       |
-| onPositive()          | Set the positive button text and listener.                                       |
-| onDismiss()           | Set a listener that is invoked when the sheet is dismissed.                      |
-| onCancel()            | Set a listener that is invoked when the sheet is cancelled (only if cancelable). |
-| onClose()             | Set a listener that is invoked when the sheet is closed.                         |
-| show()                | show the sheet.                                                                  |
+| cornerRadius()        | 设置边角的圆弧半径。                                                               |
+| cornerFamily()        | 设置边角家族。(切割的或者圆角的)                                                      |
+| borderWidth()         | 设置边框宽度。                                                                     |
+| borderColor()         | 设置边框颜色。                                                                     |
+| cancelableOutside()   | 使在点击对话框以外的地方可以退出sheet。                                               |
+| onNegative()          | 设置否定按钮的文本和侦听器（listener）。                                              |
+| onPositive()          | 设置肯定按钮的文本和侦听器（listener）。                                              |
+| onDismiss()           | 设置一个在关闭（点击肯定或否定按钮）sheet时会被调用的侦听器。                             |
+| onCancel()            | 设置一个在取消（点击对话框以外的地方）sheet时会被调用的侦听器。（如果sheet可以被取消）      |
+| onClose()             | 设置一个在sheet被关闭（包括以上两种形式）时会被调用的侦听器。                             |
+| show()                | 显示sheet。                                                                  |
 
 Each sheet has an extension function called `build` and `show`.<br/>
 
