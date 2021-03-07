@@ -182,9 +182,9 @@ dependencies {
 }
 ```
 
-### Usage
+### 用法
 
-For the default info sheet use it as following:
+默认的信息sheet用法如下：
 
     InfoSheet().show(context) {
       title("Do you want to install Awake?")
@@ -197,21 +197,21 @@ For the default info sheet use it as following:
       }
     }
 
-| Function        | Action              |
+| 功能             | 作用                |
 | --------------- | ------------------- |
-| content()       | Set content text.   |
-| drawable()      | Set drawable.       |
-| drawableColor() | Set drawable color. |
+| content()       | 设置内容文本。        |
+| drawable()      | 设置可绘制资源。       |
+| drawableColor() | 设置可绘制资源的颜色。 |
 
-## Options
+## 选项
 
-[ ![Download](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/options.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/options)
+[ ![下载](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/options.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/options)
 
-The `Options` Sheet lets you display a grid or list of options.
+这个`Options`Sheet能使各种选项以网格或者列表的形式呈现。
 
 <details open>
 <br/><br/>
-<summary>Showcase as Dialog</summary>
+<summary>以对话框为例的作品展示</summary>
 
 <img src="art/OptionsSheet Dialog Grid Middle.png" width="80%" alt="Sheets OptionsSheet Dialog">
 </details>
@@ -219,7 +219,7 @@ The `Options` Sheet lets you display a grid or list of options.
 
 <details>
 <br/><br/>
-<summary>Showcase as BottomSheet</summary>
+<summary>以BottomSheet为例的作品展示</summary>
 
 <img src="art/OptionsSheet BottomSheet Grid Middle.png" width="80%" alt="Sheets OptionsSheet BottomSheet">
 </details>
@@ -227,7 +227,7 @@ The `Options` Sheet lets you display a grid or list of options.
 <br/>
 <details>
 <br/><br/>
-<summary>Showcase some variants as Dialogs</summary>
+<summary>以对话框形式的额外作品展示</summary>
 
 <img src="art/OptionsSheet Dialog List.png" width="80%" alt="Sheets OptionsSheet Dialog"><br/>
 <img src="art/OptionsSheet Dialog Grid Small.png" width="80%" alt="Sheets OptionsSheet" Dialog><br/>
@@ -238,7 +238,7 @@ The `Options` Sheet lets you display a grid or list of options.
 
 <details>
 <br/><br/>
-<summary>Showcase some variants as BottomSheets</summary>
+<summary>以BottomSheets形式的额外作品展示</summary>
 
 <img src="art/OptionsSheet BottomSheet List.png" width="80%" alt="Sheets OptionsSheet BottomSheet"><br/>
 <img src="art/OptionsSheet BottomSheet Grid Small.png" width="80%" alt="Sheets OptionsSheet" BottomSheet><br/>
@@ -260,9 +260,9 @@ dependencies {
 }
 ```
 
-### Usage
+### 用法
 
-For the default options sheet use it as following:
+默认的选项sheet用法如下：
 
     OptionsSheet().show(context) {
       title("Text message")
