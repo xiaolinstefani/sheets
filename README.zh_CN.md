@@ -129,9 +129,9 @@ Following functions can be called from any type of sheet.
 | onClose()             | 设置一个在sheet被关闭（包括以上两种形式）时会被调用的侦听器。                             |
 | show()                | 显示sheet。                                                                  |
 
-Each sheet has an extension function called `build` and `show`.<br/>
+每个sheet都有一个叫`build`和`show`的扩展功能。<br/>
 
-Use `build` to build a sheet and display it later.
+使用`build`来创建sheet并且以后再显示它。
 
     val sheet = InfoSheet().build(context) {
       // build sheet
@@ -139,22 +139,22 @@ Use `build` to build a sheet and display it later.
 
     sheet.show() // Show sheet when ready
 
-Use `show` if you want to build and then immediately display it.
+如果你想在创建完sheet之后就立刻显示它，那就使用`show`。
 
     InfoSheet().show(context) {
       // build sheet
     } // Show sheet
 
-## Info
+## 信息
 
-[ ![Download](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/info.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/core)
+[ ![下载](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/info.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/core)
 
-The `Info` Sheet lets you display information or warning.
+`Info` Sheet能显示一般信息或者警告信息。
 
 <details open>
 <br/>
 <br/>
-<summary>Showcase as Dialog</summary>
+<summary>以对话框为例的作品展示</summary>
 
 <img src="art/InfoSheet Dialog.png" width="80%" alt="Sheets InfoSheet Dialog"><br/>
 <img src="art/InfoSheet Dialog Cover TopStyle Top.png" width="80%" alt="Sheets InfoSheet Dialog"><br/>
@@ -165,7 +165,7 @@ The `Info` Sheet lets you display information or warning.
 </br>
 
 <details>
-<summary>Showcase as BottomSheet</summary>
+<summary>以BottomSheet为例的作品展示</summary>
 
 <br/>
 <br/>
