@@ -276,16 +276,16 @@ dependencies {
       }
     }
 
-| Function                     | Action                                                                                 |
+| 功能                         | 作用                                                                                   |
 | ---------------------------- | -------------------------------------------------------------------------------------- |
-| multipleChoices()            | Allow multiple choices content.                                                        |
-| displayMultipleChoicesInfo() | Display info of the multiple choices.                                                  |
-| maxChoicesStrictLimit()      | Specify that the max choices is strict and more choices can't be selected temporarily. |
-| minChoices()                 | Set the minimum amount of choices.                                                     |
-| maxChoices()                 | Set the maximum amount of choices.                                                     |
-| onPositiveMultiple()         | Set listener for multiple choices.                                                     |
-| displayButtons()             | Display buttons and require a positive button click for selection.                     |
-| displayMode()                | Display options in a list or a vertical/ horizontal growing scrollable grid.           |
+| multipleChoices()            | 允许多项选择的内容。                                                                      |
+| displayMultipleChoicesInfo() | 显示多项选择的相关说明。                                                                   |
+| maxChoicesStrictLimit()      | 指定最多可选项受限并且暂时无法选择更多选项。                                                  |
+| minChoices()                 | 设置最少可选项。                                                                          |
+| maxChoices()                 | 设置最多可选项。                                                                          |
+| onPositiveMultiple()         | 设置多项选择的侦听器。                                                                     |
+| displayButtons()             | 显示按钮，并且需要点击肯定按钮来确认所选项。                                                  |
+| displayMode()                | 以列表或垂直/水平的可滑动的网格形式来显示选项。                                                |
 
 **Option**
 
