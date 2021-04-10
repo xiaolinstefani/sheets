@@ -287,24 +287,24 @@ dependencies {
 | displayButtons()             | 显示按钮，并且需要点击肯定按钮来确认所选项。                                                  |
 | displayMode()                | 以列表或垂直/水平的可滑动的网格形式来显示选项。                                                |
 
-**Option**
+**选项**
 
-| Function   | Action               |
+| 功能        | 作用                 |
 | ---------- | -------------------- |
-| selected() | Preselect an option. |
-| disable()  | Disable an option.   |
+| selected() | 预选一个选项。         |
+| disable()  | 禁用一个选项。         |
 
-**Note**: Preselected options automatically increase the current selection while disabled options decrease the maximum amount of choices.
+**注意**: 预选项会自动增加当前所选项的数量，而禁用的选项会减少最多可选项的数量。
 
-## Clock Time
+## 钟点
 
-[ ![Download](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/time-clock.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/time-clock)
+[ ![下载](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/time-clock.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/time-clock)
 
-The `Clock Time` Sheet lets you quickly pick a time.
+`Clock Time` Sheet能使你快速地选择一个时间。
 
 <details>
 <br/><br/>
-<summary>Showcase as Dialog</summary>
+<summary>以对话框为例的作品展示</summary>
 
 <img src="art/ClockTimeSheet Dialog.png" width="80%" alt="Sheets OptionsSheet Dialog">
 </details>
@@ -312,7 +312,7 @@ The `Clock Time` Sheet lets you quickly pick a time.
 
 <details open>
 <br/><br/>
-<summary>Showcase as BottomSheet</summary>
+<summary>以BottomSheet为例的作品展示</summary>
 
 <img src="art/ClockTimeSheet BottomSheet.png" width="80%" alt="Sheets OptionsSheet BottomSheet">
 </details>
@@ -324,9 +324,9 @@ dependencies {
 }
 ```
 
-### Usage
+### 用法
 
-For the default clock time sheet, in 24-hours format, use it as following:
+对于默认的钟点sheet，以24小时的格式，用法如下：
 
     ClockTimeSheet().show(context) {
       title("Wake-up time")
@@ -335,10 +335,10 @@ For the default clock time sheet, in 24-hours format, use it as following:
       }
     }
 
-| Function        | Action                                |
+| 功能             | 作用                                  |
 | --------------- | ------------------------------------- |
-| format24Hours() | Use 24-hours or 12-hours format.      |
-| currentTime()   | Set the current time in milliseconds. |
+| format24Hours() | 使用24小时或12小时的格式。                |
+| currentTime()   | 以毫秒为单位设置当前时间。                |
 
 ## Time
 
