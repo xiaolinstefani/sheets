@@ -340,15 +340,15 @@ dependencies {
 | format24Hours() | 使用24小时或12小时的格式。                |
 | currentTime()   | 以毫秒为单位设置当前时间。                |
 
-## Time
+## 时长
 
-[ ![Download](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/time.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/time)
+[ ![下载](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/time.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/time)
 
-The `Time` Sheet lets you pick a duration time in a specific format.
+`Time` Sheet能使你以特定的格式选择一个持续时间。
 
 <details open>
 <br/><br/>
-<summary>Showcase as Dialog</summary>
+<summary>以对话框为例的作品展示</summary>
 
 <img src="art/TimeSheet Dialog.png" width="80%" alt="Sheets TimeSheet Dialog">
 </details>
@@ -356,7 +356,7 @@ The `Time` Sheet lets you pick a duration time in a specific format.
 
 <details>
 <br/><br/>
-<summary>Showcase as BottomSheet</summary>
+<summary>以BottomSheet为例的作品展示</summary>
 
 <img src="art/TimeSheet BottomSheet.png" width="80%" alt="Sheets TimeSheet BottomSheet">
 </details>
@@ -368,9 +368,9 @@ dependencies {
 }
 ```
 
-### Usage
+### 用法
 
-For the default time sheet use it as following:
+默认的时长sheet用法如下：
 
     TimeSheet().show(context) {
       title("Snooze time")
@@ -379,22 +379,22 @@ For the default time sheet use it as following:
       }
     }
 
-| Function      | Action                                          |
+| 功能           | 作用                                            |
 | ------------- | ----------------------------------------------- |
 | format()      | Select the time format. (hh:mm:ss, mm:ss, ...) |
-| currentTime() | Set the current time in seconds.                |
-| minTime()     | Set the minimum time.                           |
-| maxTime()`    | Set the maximum time.                          |
+| currentTime() | 以秒为单位设置当前时长。                           |
+| minTime()     | 设置最短时长。                                   |
+| maxTime()     | 设置最长时长。                                   |
 
-## Input
+## 输入
 
-[ ![Download](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/input.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/input)
+[ ![下载](https://img.shields.io/maven-central/v/com.maxkeppeler.sheets/input.svg?label=Maven%20Central) ](https://search.maven.org/artifact/com.maxkeppeler.sheets/input)
 
-The `Input` Sheet lets you display a form consisting of various inputs.
+`Input` Sheet使你可以显示包含各种输入的表单。
 
 <details>
 <br/><br/>
-<summary>Showcase as Dialog</summary>
+<summary>以对话框为例的作品展示</summary>
 
 <img src="art/InputSheet Dialog Short.png" width="80%" alt="Sheets InputSheet Dialog">
 </details>
@@ -402,7 +402,7 @@ The `Input` Sheet lets you display a form consisting of various inputs.
 
 <details open>
 <br/><br/>
-<summary>Showcase as BottomSheet</summary>
+<summary>以BottomSheet为例的作品展示</summary>
 
 <img src="art/InputSheet BottomSheet Short.png" width="80%" alt="Sheets InputSheet BottomSheet">
 </details>
@@ -410,7 +410,7 @@ The `Input` Sheet lets you display a form consisting of various inputs.
 <br/>
 <details>
 <br/><br/>
-<summary>Showcase some variants as Dialogs</summary>
+<summary>以对话框形式的额外作品展示</summary>
 
 <img src="art/InputSheet Dialog Long.png" width="80%" alt="Sheets InputSheet Dialog"><br/>
 
@@ -419,7 +419,7 @@ The `Input` Sheet lets you display a form consisting of various inputs.
 
 <details>
 <br/><br/>
-<summary>Showcase some variants as BottomSheets</summary>
+<summary>以BottomSheets形式的额外作品展示</summary>
 
 <img src="art/InputSheet BottomSheet Long.png" width="80%" alt="Sheets InputSheet BottomSheet">
 </details>
@@ -431,9 +431,9 @@ dependencies {
 }
 ```
 
-### Usage
+### 用法
 
-For the default input sheet use it as following:
+默认的输入sheet用法如下：
 
     InputSheet()).show(context) {
         title("Short survey")
@@ -465,19 +465,19 @@ For the default input sheet use it as following:
       }
     }
 
-| Function  | Action                                        |
+| 功能       | 作用                                          |
 | --------- | --------------------------------------------- |
-| with()    | Add an input. (see input options)             |
-| content() | Set content text. (e. g. to explain a survey) |
+| with()    | 添加输入。（参考输入选项）                        |
+| content() | 设置内容文本（例如：解释一项调查）                  |
 
-**Input options:**
+**输入选项**
 
 - `InputEditText`
 - `InputCheckBox`
 - `InputRadioButtons`
 - `InputSpinner`
 
-**Input**<br/>
+**输入**<br/>
 
 | Function         | Action                           |
 | ---------------- | -------------------------------- |
